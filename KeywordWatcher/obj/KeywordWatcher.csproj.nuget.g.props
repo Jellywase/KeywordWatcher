@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\jelly\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\jelly\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\Assets\kiwi_icon.ico" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\Assets\kiwi_icon.ico')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Assets\kiwi_icon.ico</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\combiningRule.txt" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\combiningRule.txt')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\models\combiningRule.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\default.dict" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\default.dict')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\models\default.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\extract.mdl" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\extract.mdl')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\models\extract.mdl</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\multi.dict" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\multi.dict')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\models\multi.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\sj.knlm" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\sj.knlm')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\models\sj.knlm</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\sj.morph" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\sj.morph')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\models\sj.morph</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\skipbigram.mdl" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\skipbigram.mdl')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\models\skipbigram.mdl</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\typo.dict" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\models\typo.dict')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\models\typo.dict</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\linux-x86-x64\lib\libkiwi.so" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\linux-x86-x64\lib\libkiwi.so')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\runtimes\linux-x86-x64\lib\libkiwi.so</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\linux-x86-x64\lib\libkiwi.so.0" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\linux-x86-x64\lib\libkiwi.so.0')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\runtimes\linux-x86-x64\lib\libkiwi.so.0</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\linux-x86-x64\lib\libkiwi.so.0.19.0" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\linux-x86-x64\lib\libkiwi.so.0.19.0')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\runtimes\linux-x86-x64\lib\libkiwi.so.0.19.0</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-arm64\lib\libkiwi.0.19.0.dylib" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-arm64\lib\libkiwi.0.19.0.dylib')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\runtimes\macos-arm64\lib\libkiwi.0.19.0.dylib</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-arm64\lib\libkiwi.0.dylib" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-arm64\lib\libkiwi.0.dylib')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\runtimes\macos-arm64\lib\libkiwi.0.dylib</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-arm64\lib\libkiwi.dylib" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-arm64\lib\libkiwi.dylib')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\runtimes\macos-arm64\lib\libkiwi.dylib</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-x86-x64\lib\libkiwi.0.19.0.dylib" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-x86-x64\lib\libkiwi.0.19.0.dylib')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\runtimes\macos-x86-x64\lib\libkiwi.0.19.0.dylib</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-x86-x64\lib\libkiwi.0.dylib" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-x86-x64\lib\libkiwi.0.dylib')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\runtimes\macos-x86-x64\lib\libkiwi.0.dylib</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-x86-x64\lib\libkiwi.dylib" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\macos-x86-x64\lib\libkiwi.dylib')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\runtimes\macos-x86-x64\lib\libkiwi.dylib</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\win-x64\lib\kiwi.dll" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\win-x64\lib\kiwi.dll')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\runtimes\win-x64\lib\kiwi.dll</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\win-x86\lib\kiwi.dll" Condition="Exists('$(NuGetPackageRoot)netkiwi\1.4.0\contentFiles\any\net8.0\netkiwi\runtimes\win-x86\lib\kiwi.dll')">
+      <NuGetPackageId>NetKiwi</NuGetPackageId>
+      <NuGetPackageVersion>1.4.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>netkiwi\runtimes\win-x86\lib\kiwi.dll</Link>
+    </Content>
+  </ItemGroup>
+</Project>

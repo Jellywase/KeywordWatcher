@@ -1,0 +1,6541 @@
+{
+  "cd": {
+    "time": "2025-10-23T20:56:39.2136292+09:00",
+    "name": "DC stockus",
+    "description": "",
+    "compared": {
+      "time": "2025-10-23T20:54:03.9011149+09:00",
+      "name": "DC stockus",
+      "description": "",
+      "compared": null,
+      "keywords": {},
+      "freqDesc": [],
+      "divPerDesc": []
+    },
+    "keywords": {
+      "속": {
+        "keyword": "속",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "미국": {
+        "keyword": "미국",
+        "frequency": 44,
+        "divergence": 44,
+        "divergencePercent": 3.4028235E+38
+      },
+      "주식": {
+        "keyword": "주식",
+        "frequency": 43,
+        "divergence": 43,
+        "divergencePercent": 3.4028235E+38
+      },
+      "마이너": {
+        "keyword": "마이너",
+        "frequency": 40,
+        "divergence": 40,
+        "divergencePercent": 3.4028235E+38
+      },
+      "갤러리": {
+        "keyword": "갤러리",
+        "frequency": 37,
+        "divergence": 37,
+        "divergencePercent": 3.4028235E+38
+      },
+      "나스닥": {
+        "keyword": "나스닥",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      "개조": {
+        "keyword": "개조",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "창": {
+        "keyword": "창",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "질풍": {
+        "keyword": "질풍",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "운지": {
+        "keyword": "운지",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "정도": {
+        "keyword": "정도",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "상위": {
+        "keyword": "상위",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "퍼": {
+        "keyword": "퍼",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "콩고기": {
+        "keyword": "콩고기",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      "저거": {
+        "keyword": "저거",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "장": {
+        "keyword": "장",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      "달러": {
+        "keyword": "달러",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "거": {
+        "keyword": "거",
+        "frequency": 9,
+        "divergence": 9,
+        "divergencePercent": 3.4028235E+38
+      },
+      "매매": {
+        "keyword": "매매",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "씹이온큐": {
+        "keyword": "씹이온큐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "씹": {
+        "keyword": "씹",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "마라탕": {
+        "keyword": "마라탕",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "여자": {
+        "keyword": "여자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "방구": {
+        "keyword": "방구",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "시": {
+        "keyword": "시",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "잠": {
+        "keyword": "잠",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "어닝": {
+        "keyword": "어닝",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "없노": {
+        "keyword": "없노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "넷플릭스": {
+        "keyword": "넷플릭스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "테슬라": {
+        "keyword": "테슬라",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "이후": {
+        "keyword": "이후",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      "꼴아박냐": {
+        "keyword": "꼴아박냐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "양자": {
+        "keyword": "양자",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      "꼬라박겟노": {
+        "keyword": "꼬라박겟노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "좆게티": {
+        "keyword": "좆게티",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "설거지": {
+        "keyword": "설거지",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      "실력": {
+        "keyword": "실력",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "감탄": {
+        "keyword": "감탄",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "갤러리캭": {
+        "keyword": "갤러리캭",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "오늘": {
+        "keyword": "오늘",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "숏": {
+        "keyword": "숏",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      "갤러리컄": {
+        "keyword": "갤러리컄",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "대공황": {
+        "keyword": "대공황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "대콩황": {
+        "keyword": "대콩황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "나라": {
+        "keyword": "나라",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "한국": {
+        "keyword": "한국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "패싱": {
+        "keyword": "패싱",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "것": {
+        "keyword": "것",
+        "frequency": 12,
+        "divergence": 12,
+        "divergencePercent": 3.4028235E+38
+      },
+      "호재": {
+        "keyword": "호재",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "이유": {
+        "keyword": "이유",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "배당": {
+        "keyword": "배당",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "부자": {
+        "keyword": "부자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "미주갤": {
+        "keyword": "미주갤",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "최고": {
+        "keyword": "최고",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "호감닉": {
+        "keyword": "호감닉",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "야짤투자충": {
+        "keyword": "야짤투자충",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "새벽": {
+        "keyword": "새벽",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "완장": {
+        "keyword": "완장",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "떄": {
+        "keyword": "떄",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "탱고": {
+        "keyword": "탱고",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "느금마": {
+        "keyword": "느금마",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "한국인": {
+        "keyword": "한국인",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "믿음": {
+        "keyword": "믿음",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "트럼프": {
+        "keyword": "트럼프",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "중대": {
+        "keyword": "중대",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "발표": {
+        "keyword": "발표",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "예고": {
+        "keyword": "예고",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "좆": {
+        "keyword": "좆",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "새끼": {
+        "keyword": "새끼",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "트윗": {
+        "keyword": "트윗",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "찐": {
+        "keyword": "찐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "나": {
+        "keyword": "나",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "뒤": {
+        "keyword": "뒤",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "한강": {
+        "keyword": "한강",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "노벨상": {
+        "keyword": "노벨상",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "채식주의자": {
+        "keyword": "채식주의자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "풀매수": {
+        "keyword": "풀매수",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "똥": {
+        "keyword": "똥",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      "짤": {
+        "keyword": "짤",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "놈": {
+        "keyword": "놈",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "사진": {
+        "keyword": "사진",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "쪽": {
+        "keyword": "쪽",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "취향": {
+        "keyword": "취향",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "화장실": {
+        "keyword": "화장실",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "자동": {
+        "keyword": "자동",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "진행": {
+        "keyword": "진행",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "완벽": {
+        "keyword": "완벽",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "자": {
+        "keyword": "자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "발전": {
+        "keyword": "발전",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "때": {
+        "keyword": "때",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      "딸": {
+        "keyword": "딸",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "하나": {
+        "keyword": "하나",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "획득": {
+        "keyword": "획득",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "짜장면": {
+        "keyword": "짜장면",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "뭐": {
+        "keyword": "뭐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "장가": {
+        "keyword": "장가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "븅신": {
+        "keyword": "븅신",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "면": {
+        "keyword": "면",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "주최국": {
+        "keyword": "주최국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "개": {
+        "keyword": "개",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "성공": {
+        "keyword": "성공",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "제품": {
+        "keyword": "제품",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "짜파게티": {
+        "keyword": "짜파게티",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "말": {
+        "keyword": "말",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      "김": {
+        "keyword": "김",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "능력": {
+        "keyword": "능력",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "인정": {
+        "keyword": "인정",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "리게티숏": {
+        "keyword": "리게티숏",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "타점": {
+        "keyword": "타점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "고민": {
+        "keyword": "고민",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "꼬라지": {
+        "keyword": "꼬라지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "상승": {
+        "keyword": "상승",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "황": {
+        "keyword": "황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "냄새": {
+        "keyword": "냄새",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "에펙에": {
+        "keyword": "에펙에",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "중국": {
+        "keyword": "중국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "누구": {
+        "keyword": "누구",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "러시아": {
+        "keyword": "러시아",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "노보노": {
+        "keyword": "노보노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "차트": {
+        "keyword": "차트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "노": {
+        "keyword": "노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "아이온": {
+        "keyword": "아이온",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "큐": {
+        "keyword": "큐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "수익": {
+        "keyword": "수익",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "쪼금": {
+        "keyword": "쪼금",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "수": {
+        "keyword": "수",
+        "frequency": 6,
+        "divergence": 6,
+        "divergencePercent": 3.4028235E+38
+      },
+      "데": {
+        "keyword": "데",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "후": {
+        "keyword": "후",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "흑": {
+        "keyword": "흑",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "학": {
+        "keyword": "학",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "대가": {
+        "keyword": "대가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "주석": {
+        "keyword": "주석",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "훼이크무빙": {
+        "keyword": "훼이크무빙",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "뿐": {
+        "keyword": "뿐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "최근": {
+        "keyword": "최근",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "키우시": {
+        "keyword": "키우시",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "돼지": {
+        "keyword": "돼지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "차원": {
+        "keyword": "차원",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "우호": {
+        "keyword": "우호",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "참석": {
+        "keyword": "참석",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "소국": {
+        "keyword": "소국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "광": {
+        "keyword": "광",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "영": {
+        "keyword": "영",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "청탁": {
+        "keyword": "청탁",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "범죄": {
+        "keyword": "범죄",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "외노자": {
+        "keyword": "외노자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "노숙자": {
+        "keyword": "노숙자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "대": {
+        "keyword": "대",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "생계": {
+        "keyword": "생계",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "애": {
+        "keyword": "애",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      "사건": {
+        "keyword": "사건",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "접수": {
+        "keyword": "접수",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "일": {
+        "keyword": "일",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "외국인": {
+        "keyword": "외국인",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "뉴스": {
+        "keyword": "뉴스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "국장": {
+        "keyword": "국장",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "돈": {
+        "keyword": "돈",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "미장": {
+        "keyword": "미장",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "대남": {
+        "keyword": "대남",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "삼": {
+        "keyword": "삼",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "전": {
+        "keyword": "전",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "하이닉스": {
+        "keyword": "하이닉스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "사고": {
+        "keyword": "사고",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "힙": {
+        "keyword": "힙",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "할아버지": {
+        "keyword": "할아버지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "할머니": {
+        "keyword": "할머니",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "엔비디아": {
+        "keyword": "엔비디아",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "어디": {
+        "keyword": "어디",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "우월": {
+        "keyword": "우월",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "척": {
+        "keyword": "척",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "코로나": {
+        "keyword": "코로나",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "직전": {
+        "keyword": "직전",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "직후": {
+        "keyword": "직후",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "느그": {
+        "keyword": "느그",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "개미": {
+        "keyword": "개미",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "시작": {
+        "keyword": "시작",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "가격": {
+        "keyword": "가격",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "초기": {
+        "keyword": "초기",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "프리": {
+        "keyword": "프리",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "종가": {
+        "keyword": "종가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "노게티": {
+        "keyword": "노게티",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "사나이": {
+        "keyword": "사나이",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "테스트": {
+        "keyword": "테스트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "통과": {
+        "keyword": "통과",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "신사": {
+        "keyword": "신사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "개추": {
+        "keyword": "개추",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "갤러리엌": {
+        "keyword": "갤러리엌",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "드래프트": {
+        "keyword": "드래프트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "킹스": {
+        "keyword": "킹스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "사라": {
+        "keyword": "사라",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "구라": {
+        "keyword": "구라",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "만": {
+        "keyword": "만",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "원": {
+        "keyword": "원",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "구글": {
+        "keyword": "구글",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      "제미니": {
+        "keyword": "제미니",
+        "frequency": 6,
+        "divergence": 6,
+        "divergencePercent": 3.4028235E+38
+      },
+      "차량": {
+        "keyword": "차량",
+        "frequency": 11,
+        "divergence": 11,
+        "divergencePercent": 3.4028235E+38
+      },
+      "내년": {
+        "keyword": "내년",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "기본": {
+        "keyword": "기본",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "탑재": {
+        "keyword": "탑재",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      "제목": {
+        "keyword": "제목",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "년": {
+        "keyword": "년",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      "부제": {
+        "keyword": "부제",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "저": {
+        "keyword": "저",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "미니": {
+        "keyword": "미니",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "유지": {
+        "keyword": "유지",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "보수": {
+        "keyword": "보수",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "문제": {
+        "keyword": "문제",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "파악": {
+        "keyword": "파악",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "경로": {
+        "keyword": "경로",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "제안": {
+        "keyword": "제안",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "가능": {
+        "keyword": "가능",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "통신": {
+        "keyword": "통신",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "자사": {
+        "keyword": "자사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "다양": {
+        "keyword": "다양",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "자동차": {
+        "keyword": "자동차",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "트럭": {
+        "keyword": "트럭",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "플랫폼": {
+        "keyword": "플랫폼",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      "기반": {
+        "keyword": "기반",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "대화": {
+        "keyword": "대화",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "비서": {
+        "keyword": "비서",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      "통합": {
+        "keyword": "통합",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      "계획": {
+        "keyword": "계획",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      "데이터": {
+        "keyword": "데이터",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "접근": {
+        "keyword": "접근",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      "필요시": {
+        "keyword": "필요시",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "운전자": {
+        "keyword": "운전자",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      "기능": {
+        "keyword": "기능",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      "설명": {
+        "keyword": "설명",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "역할": {
+        "keyword": "역할",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "수행": {
+        "keyword": "수행",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "탑승": {
+        "keyword": "탑승",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "난방": {
+        "keyword": "난방",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "에어컨": {
+        "keyword": "에어컨",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "등": {
+        "keyword": "등",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "원격": {
+        "keyword": "원격",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "작업": {
+        "keyword": "작업",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "전망": {
+        "keyword": "전망",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "이": {
+        "keyword": "이",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      "빌트": {
+        "keyword": "빌트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "인": {
+        "keyword": "인",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "운영": {
+        "keyword": "운영",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "체제": {
+        "keyword": "체제",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "추가": {
+        "keyword": "추가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "기존": {
+        "keyword": "기존",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "지도": {
+        "keyword": "지도",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "어시스턴트": {
+        "keyword": "어시스턴트",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      "관련": {
+        "keyword": "관련",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "앱": {
+        "keyword": "앱",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "제공": {
+        "keyword": "제공",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "출시": {
+        "keyword": "출시",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      "채": {
+        "keyword": "채",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "팅": {
+        "keyword": "팅",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "동일": {
+        "keyword": "동일",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "유형": {
+        "keyword": "유형",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "성능": {
+        "keyword": "성능",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "향상": {
+        "keyword": "향상",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "데이브": {
+        "keyword": "데이브",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "리처드슨": {
+        "keyword": "리처드슨",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "부사장": {
+        "keyword": "부사장",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "인터뷰": {
+        "keyword": "인터뷰",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "음성": {
+        "keyword": "음성",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "어려움": {
+        "keyword": "어려움",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "특정": {
+        "keyword": "특정",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "명령어": {
+        "keyword": "명령어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "코드": {
+        "keyword": "코드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "단어": {
+        "keyword": "단어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "반응": {
+        "keyword": "반응",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "훈련": {
+        "keyword": "훈련",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "억양": {
+        "keyword": "억양",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "이해": {
+        "keyword": "이해",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "응답": {
+        "keyword": "응답",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "점": {
+        "keyword": "점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "그": {
+        "keyword": "그",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "규모": {
+        "keyword": "규모",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "언어": {
+        "keyword": "언어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "모델": {
+        "keyword": "모델",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "장점": {
+        "keyword": "장점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "영향": {
+        "keyword": "영향",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "주요": {
+        "keyword": "주요",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "중": {
+        "keyword": "중",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      "웹": {
+        "keyword": "웹",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "챗봇": {
+        "keyword": "챗봇",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "지리": {
+        "keyword": "지리",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "위치": {
+        "keyword": "위치",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "질문": {
+        "keyword": "질문",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "예시": {
+        "keyword": "예시",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "다리": {
+        "keyword": "다리",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "역사": {
+        "keyword": "역사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "상황": {
+        "keyword": "상황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "스타": {
+        "keyword": "스타",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "장착": {
+        "keyword": "장착",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "무선": {
+        "keyword": "무선",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "업그레이드": {
+        "keyword": "업그레이드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "플레이": {
+        "keyword": "플레이",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "스토어": {
+        "keyword": "스토어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "이용": {
+        "keyword": "이용",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "최신": {
+        "keyword": "최신",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "국한": {
+        "keyword": "국한",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "형": {
+        "keyword": "형",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "지원": {
+        "keyword": "지원",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "맞춤": {
+        "keyword": "맞춤",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "제작": {
+        "keyword": "제작",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "자체": {
+        "keyword": "자체",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "개발": {
+        "keyword": "개발",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "구체": {
+        "keyword": "구체",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "일정": {
+        "keyword": "일정",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "공개": {
+        "keyword": "공개",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "스마트": {
+        "keyword": "스마트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "드라이버": {
+        "keyword": "드라이버",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "프로그램": {
+        "keyword": "프로그램",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "수집": {
+        "keyword": "수집",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "일부": {
+        "keyword": "일부",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "고객": {
+        "keyword": "고객",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "정보": {
+        "keyword": "정보",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      "사용자": {
+        "keyword": "사용자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "동의": {
+        "keyword": "동의",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "보험사": {
+        "keyword": "보험사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "판매": {
+        "keyword": "판매",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "사실": {
+        "keyword": "사실",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "논란": {
+        "keyword": "논란",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "연방": {
+        "keyword": "연방",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "거래": {
+        "keyword": "거래",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "위원회": {
+        "keyword": "위원회",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "금지": {
+        "keyword": "금지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "조치": {
+        "keyword": "조치",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "개인": {
+        "keyword": "개인",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "보호": {
+        "keyword": "보호",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "중점": {
+        "keyword": "중점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "소프트웨어": {
+        "keyword": "소프트웨어",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "사용": {
+        "keyword": "사용",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "지": {
+        "keyword": "지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "제어": {
+        "keyword": "제어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "강조": {
+        "keyword": "강조",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "포워드": {
+        "keyword": "포워드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "미디어": {
+        "keyword": "미디어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "이벤트": {
+        "keyword": "이벤트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "향후": {
+        "keyword": "향후",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      "이니셔티브": {
+        "keyword": "이니셔티브",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "논의": {
+        "keyword": "논의",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "자율": {
+        "keyword": "자율",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "주행": {
+        "keyword": "주행",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "예정": {
+        "keyword": "예정",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      "목표": {
+        "keyword": "목표",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "컴퓨팅": {
+        "keyword": "컴퓨팅",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "애플": {
+        "keyword": "애플",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "카": {
+        "keyword": "카",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "안드로이드": {
+        "keyword": "안드로이드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "오토": {
+        "keyword": "오토",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "연동": {
+        "keyword": "연동",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "중단": {
+        "keyword": "중단",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "일몰": {
+        "keyword": "일몰",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "의미": {
+        "keyword": "의미",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "단계": {
+        "keyword": "단계",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "폐지": {
+        "keyword": "폐지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "폭락": {
+        "keyword": "폭락",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "환율": {
+        "keyword": "환율",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "복구": {
+        "keyword": "복구",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "시즌": {
+        "keyword": "시즌",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "입": {
+        "keyword": "입",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "모양": {
+        "keyword": "모양",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "정석": {
+        "keyword": "정석",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      "주포": {
+        "keyword": "주포",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      }
+    },
+    "freqDesc": [
+      {
+        "keyword": "미국",
+        "frequency": 44,
+        "divergence": 44,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주식",
+        "frequency": 43,
+        "divergence": 43,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "마이너",
+        "frequency": 40,
+        "divergence": 40,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "갤러리",
+        "frequency": 37,
+        "divergence": 37,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "것",
+        "frequency": 12,
+        "divergence": 12,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "차량",
+        "frequency": 11,
+        "divergence": 11,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "거",
+        "frequency": 9,
+        "divergence": 9,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "콩고기",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "장",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "구글",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "년",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "수",
+        "frequency": 6,
+        "divergence": 6,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제미니",
+        "frequency": 6,
+        "divergence": 6,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "양자",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "때",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "운전자",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "나스닥",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "숏",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "똥",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "말",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "애",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "탑재",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "기능",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "출시",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이후",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "설거지",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "플랫폼",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "비서",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "통합",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "계획",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "접근",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "어시스턴트",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "중",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "정보",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "향후",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "운지",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "정도",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "저거",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "시",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "어닝",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "테슬라",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "오늘",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "나라",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "패싱",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "한국인",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "발표",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "예고",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "짤",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "하나",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "짜파게티",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주석",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "최근",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "범죄",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "국장",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "미장",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "전",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "힙",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "시작",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "원",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "저",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "미니",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "유지",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "보수",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "문제",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "파악",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "경로",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "가능",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "다양",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "기반",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "데이터",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "수행",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "등",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "작업",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "관련",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제공",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "리처드슨",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "부사장",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "챗봇",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "스타",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "플레이",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "지원",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자체",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개발",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "판매",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "소프트웨어",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "예정",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "속",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개조",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "창",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "질풍",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "상위",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "퍼",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "달러",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "매매",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "씹이온큐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "씹",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "마라탕",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "여자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "방구",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "잠",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "없노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "넷플릭스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "꼴아박냐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "꼬라박겟노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "좆게티",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "실력",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "감탄",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "갤러리캭",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "갤러리컄",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대공황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대콩황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "한국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "호재",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이유",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "배당",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "부자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "미주갤",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "최고",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "호감닉",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "야짤투자충",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "새벽",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "완장",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "떄",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "탱고",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "느금마",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "믿음",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "트럼프",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "중대",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "좆",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "새끼",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "트윗",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "찐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "나",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "뒤",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "한강",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "노벨상",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "채식주의자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "풀매수",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "놈",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사진",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "쪽",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "취향",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "화장실",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자동",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "진행",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "완벽",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "발전",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "딸",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "획득",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "짜장면",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "뭐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "장가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "븅신",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "면",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주최국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "성공",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제품",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "김",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "능력",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "인정",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "리게티숏",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "타점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "고민",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "꼬라지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "상승",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "냄새",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "에펙에",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "중국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "누구",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "러시아",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "노보노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "차트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "아이온",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "큐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "수익",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "쪼금",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "데",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "후",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "흑",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "학",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "훼이크무빙",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "뿐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "키우시",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "돼지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "차원",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "우호",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "참석",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "소국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "광",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "영",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "청탁",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "외노자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "노숙자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "생계",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사건",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "접수",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "일",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "외국인",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "뉴스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "돈",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대남",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "삼",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "하이닉스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사고",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "할아버지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "할머니",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "엔비디아",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "어디",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "우월",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "척",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "코로나",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "직전",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "직후",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "느그",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개미",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "가격",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "초기",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "프리",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "종가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "노게티",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사나이",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "테스트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "통과",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "신사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개추",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "갤러리엌",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "드래프트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "킹스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사라",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "구라",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "만",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "내년",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "기본",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제목",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "부제",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제안",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "통신",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자동차",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "트럭",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대화",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "필요시",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "설명",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "역할",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "탑승",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "난방",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "에어컨",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "원격",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "전망",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "빌트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "인",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "운영",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "체제",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "추가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "기존",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "지도",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "앱",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "채",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "팅",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "동일",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "유형",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "성능",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "향상",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "데이브",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "인터뷰",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "음성",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "어려움",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "특정",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "명령어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "코드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "단어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "반응",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "훈련",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "억양",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이해",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "응답",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "그",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "규모",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "언어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "모델",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "장점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "영향",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주요",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "웹",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "지리",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "위치",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "질문",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "예시",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "다리",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "역사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "상황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "장착",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "무선",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "업그레이드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "스토어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이용",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "최신",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "국한",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "형",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "맞춤",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제작",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "구체",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "일정",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "공개",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "스마트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "드라이버",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "프로그램",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "수집",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "일부",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "고객",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사용자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "동의",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "보험사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사실",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "논란",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "연방",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "거래",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "위원회",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "금지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "조치",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개인",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "보호",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "중점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사용",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "강조",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "포워드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "미디어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이벤트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이니셔티브",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "논의",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자율",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주행",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "목표",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "컴퓨팅",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "애플",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "카",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "안드로이드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "오토",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "연동",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "중단",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "일몰",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "의미",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "단계",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "폐지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "폭락",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "환율",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "복구",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "시즌",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "입",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "모양",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "정석",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주포",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      }
+    ],
+    "divPerDesc": [
+      {
+        "keyword": "속",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "미국",
+        "frequency": 44,
+        "divergence": 44,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주식",
+        "frequency": 43,
+        "divergence": 43,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "마이너",
+        "frequency": 40,
+        "divergence": 40,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "갤러리",
+        "frequency": 37,
+        "divergence": 37,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "나스닥",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개조",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "창",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "질풍",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "운지",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "정도",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "상위",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "퍼",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "콩고기",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "저거",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "장",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "달러",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "거",
+        "frequency": 9,
+        "divergence": 9,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "매매",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "씹이온큐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "씹",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "마라탕",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "여자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "방구",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "시",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "잠",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "어닝",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "없노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "넷플릭스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "테슬라",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이후",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "꼴아박냐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "양자",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "꼬라박겟노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "좆게티",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "설거지",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "실력",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "감탄",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "갤러리캭",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "오늘",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "숏",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "갤러리컄",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대공황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대콩황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "나라",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "한국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "패싱",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "것",
+        "frequency": 12,
+        "divergence": 12,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "호재",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이유",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "배당",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "부자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "미주갤",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "최고",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "호감닉",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "야짤투자충",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "새벽",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "완장",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "떄",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "탱고",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "느금마",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "한국인",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "믿음",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "트럼프",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "중대",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "발표",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "예고",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "좆",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "새끼",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "트윗",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "찐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "나",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "뒤",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "한강",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "노벨상",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "채식주의자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "풀매수",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "똥",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "짤",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "놈",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사진",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "쪽",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "취향",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "화장실",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자동",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "진행",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "완벽",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "발전",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "때",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "딸",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "하나",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "획득",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "짜장면",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "뭐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "장가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "븅신",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "면",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주최국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "성공",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제품",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "짜파게티",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "말",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "김",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "능력",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "인정",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "리게티숏",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "타점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "고민",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "꼬라지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "상승",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "냄새",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "에펙에",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "중국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "누구",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "러시아",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "노보노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "차트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "노",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "아이온",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "큐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "수익",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "쪼금",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "수",
+        "frequency": 6,
+        "divergence": 6,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "데",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "후",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "흑",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "학",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주석",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "훼이크무빙",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "뿐",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "최근",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "키우시",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "돼지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "차원",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "우호",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "참석",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "소국",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "광",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "영",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "청탁",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "범죄",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "외노자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "노숙자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "생계",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "애",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사건",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "접수",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "일",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "외국인",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "뉴스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "국장",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "돈",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "미장",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대남",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "삼",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "전",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "하이닉스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사고",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "힙",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "할아버지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "할머니",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "엔비디아",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "어디",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "우월",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "척",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "코로나",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "직전",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "직후",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "느그",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개미",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "시작",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "가격",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "초기",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "프리",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "종가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "노게티",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사나이",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "테스트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "통과",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "신사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개추",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "갤러리엌",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "드래프트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "킹스",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사라",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "구라",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "만",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "원",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "구글",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제미니",
+        "frequency": 6,
+        "divergence": 6,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "차량",
+        "frequency": 11,
+        "divergence": 11,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "내년",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "기본",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "탑재",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제목",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "년",
+        "frequency": 7,
+        "divergence": 7,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "부제",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "저",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "미니",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "유지",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "보수",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "문제",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "파악",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "경로",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제안",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "가능",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "통신",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "다양",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자동차",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "트럭",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "플랫폼",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "기반",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "대화",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "비서",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "통합",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "계획",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "데이터",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "접근",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "필요시",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "운전자",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "기능",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "설명",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "역할",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "수행",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "탑승",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "난방",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "에어컨",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "등",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "원격",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "작업",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "전망",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이",
+        "frequency": 5,
+        "divergence": 5,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "빌트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "인",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "운영",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "체제",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "추가",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "기존",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "지도",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "어시스턴트",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "관련",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "앱",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제공",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "출시",
+        "frequency": 4,
+        "divergence": 4,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "채",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "팅",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "동일",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "유형",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "성능",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "향상",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "데이브",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "리처드슨",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "부사장",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "인터뷰",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "음성",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "어려움",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "특정",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "명령어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "코드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "단어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "반응",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "훈련",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "억양",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이해",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "응답",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "그",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "규모",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "언어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "모델",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "장점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "영향",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주요",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "중",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "웹",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "챗봇",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "지리",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "위치",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "질문",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "예시",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "다리",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "역사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "상황",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "스타",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "장착",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "무선",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "업그레이드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "플레이",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "스토어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이용",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "최신",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "국한",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "형",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "지원",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "맞춤",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제작",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자체",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개발",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "구체",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "일정",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "공개",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "스마트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "드라이버",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "프로그램",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "수집",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "일부",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "고객",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "정보",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사용자",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "동의",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "보험사",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "판매",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사실",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "논란",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "연방",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "거래",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "위원회",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "금지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "조치",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "개인",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "보호",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "중점",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "소프트웨어",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "사용",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "제어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "강조",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "포워드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "미디어",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이벤트",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "향후",
+        "frequency": 3,
+        "divergence": 3,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "이니셔티브",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "논의",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "자율",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주행",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "예정",
+        "frequency": 2,
+        "divergence": 2,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "목표",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "컴퓨팅",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "애플",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "카",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "안드로이드",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "오토",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "연동",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "중단",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "일몰",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "의미",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "단계",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "폐지",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "폭락",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "환율",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "복구",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "시즌",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "입",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "모양",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "정석",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      },
+      {
+        "keyword": "주포",
+        "frequency": 1,
+        "divergence": 1,
+        "divergencePercent": 3.4028235E+38
+      }
+    ]
+  },
+  "loopID": 1,
+  "isSuccessful": true,
+  "exceptions": []
+}

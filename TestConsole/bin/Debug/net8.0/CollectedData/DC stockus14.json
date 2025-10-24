@@ -1,0 +1,16 @@
+{
+  "cd": {
+    "time": "2025-10-23T21:13:47.4331042+09:00",
+    "name": "DC stockus",
+    "description": "",
+    "compared": null,
+    "keywords": {},
+    "freqDesc": [],
+    "divPerDesc": []
+  },
+  "loopID": 14,
+  "isSuccessful": false,
+  "exceptions": [
+    "Sequence contains no elements"
+  ]
+}

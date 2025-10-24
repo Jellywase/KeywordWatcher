@@ -1,0 +1,12 @@
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\obj\Debug\net8.0\KeywordCollector.csproj.AssemblyReference.cache
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\obj\Debug\net8.0\KeywordCollector.GeneratedMSBuildEditorConfig.editorconfig
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\obj\Debug\net8.0\KeywordCollector.AssemblyInfoInputs.cache
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\obj\Debug\net8.0\KeywordCollector.AssemblyInfo.cs
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\obj\Debug\net8.0\KeywordCollector.csproj.CoreCompileInputs.cache
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\bin\Debug\net8.0\KeywordCollector.deps.json
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\bin\Debug\net8.0\KeywordCollector.dll
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\bin\Debug\net8.0\KeywordCollector.pdb
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\obj\Debug\net8.0\KeywordCollector.dll
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\obj\Debug\net8.0\refint\KeywordCollector.dll
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\obj\Debug\net8.0\KeywordCollector.pdb
+E:\BackUp\Projects\KeywordCollector\KeywordCollector\obj\Debug\net8.0\ref\KeywordCollector.dll
