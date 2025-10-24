@@ -21,9 +21,18 @@ public class Program
         CancellationTokenSource cts = new();
         IProgress<KeywordClient.LoopResult> handler = new Progress<KeywordClient.LoopResult>((lr) =>
         {
+            Console.WriteLine("--------------------------------------------------------------");
+            Console.WriteLine(DateTime.Now.ToString());
             if (lr == null || !lr.isSuccessful)
             {
                 Console.WriteLine("Client loop failed");
+                if (lr != null)
+                {
+                    foreach (var ex in lr.exceptions)
+                    {
+                        Console.WriteLine(ex.ToString());
+                    }
+                }
                 return;
             }
 
@@ -31,10 +40,12 @@ public class Program
             int cnt = 0;
             foreach (var kw in ad.hotKeywords)
             {
-                Console.WriteLine($"{kw.keyword} : score - {kw.score}");
+                Console.WriteLine($"{kw.keyword} : score - {kw.score} , avgR - {kw.avgR} , avgF - {kw.avgF}");
+                cnt++;
                 if (cnt == 10)
                 { break; }
             }
+            Console.WriteLine("--------------------------------------------------------------");
         });
 
 
