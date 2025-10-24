@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KeywordWatcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bb05d4c2496e567d2caa5e79d1380278a7e789f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc576780893887d5b618cc685eb90aa3c9af8ff5")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeywordWatcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeywordWatcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

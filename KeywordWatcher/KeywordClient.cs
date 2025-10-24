@@ -8,17 +8,20 @@ using System.Threading.Tasks;
 
 namespace KeywordWatcher
 {
-    internal abstract class KeywordWatcher
+    public sealed class KeywordClient
     {
-        protected abstract int interval { get; }
-        protected abstract KeywordCollector collector { get; }
-        protected readonly KeywordAnalyzer analyzer;
+        readonly int interval;
+        KeywordCollector collector { get; }
+        KeywordAnalyzer analyzer { get; }
         int loopID = 0;
 
-        public KeywordWatcher(KeywordAnalyzer analyzer)
+        internal KeywordClient(KeywordCollector collector, KeywordAnalyzer analyzer, int watchInterval)
         {
+            this.collector = collector;
             this.analyzer = analyzer;
+            this.interval = watchInterval;
         }
+
 
         public async Task WatchLoop(CancellationToken ct, IProgress<LoopResult> loopHandler)
         {

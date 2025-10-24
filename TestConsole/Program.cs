@@ -6,25 +6,42 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.Unicode;
+using KeywordWatcher.DC;
 
 public class Program
 {
     public static async Task Main(string[] args)
     {
-        Console.WriteLine(MathF.Pow(3, 3));
+        HttpClient httpClient = new HttpClient();
+        httpClient.DefaultRequestHeaders.Add("User-Agent", "E");
+
+        var kc = KeywordClientFactory.Create(KeywordClientFactory.Type.dcUSStockGallery, httpClient);
+
+
+        CancellationTokenSource cts = new();
+        IProgress<KeywordClient.LoopResult> handler = new Progress<KeywordClient.LoopResult>((lr) =>
+        {
+            if (lr == null || !lr.isSuccessful)
+            {
+                Console.WriteLine("Client loop failed");
+                return;
+            }
+
+            var ad = lr.analyzedData;
+            int cnt = 0;
+            foreach (var kw in ad.hotKeywords)
+            {
+                Console.WriteLine($"{kw.keyword} : score - {kw.score}");
+                if (cnt == 10)
+                { break; }
+            }
+        });
+
+
+        _ = Task.Run(() => kc.WatchLoop(cts.Token, handler));
+
+
         while (true)
         { }
-    }
-
-    class LoopResult
-    {
-        [JsonInclude]
-        public IReadOnlyCollectedData cd;
-        [JsonInclude]
-        public long loopID = 0;
-        [JsonInclude]
-        public bool isSuccessful;
-        [JsonInclude]
-        public List<string> exceptions = new List<string>();
     }
 }

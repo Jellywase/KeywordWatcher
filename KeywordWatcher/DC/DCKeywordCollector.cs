@@ -13,13 +13,11 @@ namespace KeywordWatcher.DC
     {
         protected abstract string boardCode { get; }
         readonly HttpClient httpClient;
-        readonly SharpKiwi kiwi;
         long currentPostID = 0;
 
-        public DCKeywordCollector(HttpClient httpClient, SharpKiwi kiwi)
+        public DCKeywordCollector(HttpClient httpClient)
         {
             this.httpClient = httpClient;
-            this.kiwi = kiwi;
         }
 
 
@@ -72,7 +70,7 @@ namespace KeywordWatcher.DC
                         case HttpStatusCode.OK:
                             var htmlString = await response.Content.ReadAsStringAsync();
                             var titleAndContent = await DCUtility.ParseFromHTML(htmlString);
-                            ExtractKeywords(cd, kiwi, titleAndContent);
+                            ExtractKeywords(cd, titleAndContent);
                             cd.CountN();
                             currentPostID++;
                             break;
@@ -113,9 +111,9 @@ namespace KeywordWatcher.DC
         }
 
 
-        void ExtractKeywords(CollectedData cd, SharpKiwi kiwi, string target, bool dup = false)
+        void ExtractKeywords(CollectedData cd, string target, bool dup = false)
         {
-            var results = kiwi.Analyze(target);
+            var results = KiwiProvider.kiwi.Analyze(target);
             foreach (var result in results)
             {
                 var distinctedMorphs = result.morphs.DistinctBy((token) => token.form);

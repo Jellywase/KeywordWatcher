@@ -10,7 +10,7 @@ namespace KeywordWatcher.DC
     internal class DCUSStockKeywordCollector : DCKeywordCollector
     {
         protected override string boardCode => "stockus";
-        public DCUSStockKeywordCollector(HttpClient httpClient, SharpKiwi kiwi) : base(httpClient, kiwi)
+        public DCUSStockKeywordCollector(HttpClient httpClient) : base(httpClient)
         { }
     }
 }
