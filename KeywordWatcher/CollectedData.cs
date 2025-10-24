@@ -55,7 +55,7 @@ namespace KeywordWatcher
             if (N == 0)
             { return 0f; }
             if (keywordsInternal.TryGetValue(keyword, out var kd))
-            { return kd.frequency / N; }
+            { return (float)kd.frequency / N; }
             return 0f;
         }
 

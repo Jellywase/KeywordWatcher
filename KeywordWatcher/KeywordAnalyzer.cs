@@ -156,11 +156,11 @@ namespace KeywordWatcher
                     ak.cumulative = actualCumulative;
 
                     // 키워드 평균빈도
-                    ak.avgF = ak.totalF / actualCumulative;
-                    ak.avgR = ak.totalR / actualCumulative;
+                    ak.avgF = (float)ak.totalF / actualCumulative;
+                    ak.avgR = (float)ak.totalR / actualCumulative;
 
                     // 키워드 분산
-                    ak.varF = (ak.totalSqrF / actualCumulative) - Sqr(ak.avgF);
+                    ak.varF = ((float)ak.totalSqrF / actualCumulative) - Sqr(ak.avgF);
                     ak.varR = (ak.totalSqrR / actualCumulative) - Sqr(ak.varR);
 
                     // 키워드 표준편차
