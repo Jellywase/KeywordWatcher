@@ -8,7 +8,8 @@ namespace KeywordWatcher
 {
     internal abstract class KeywordCollector
     {
-        public abstract Task<CollectResult> CollectData();
+        public abstract Task<CollectResult> CollectData(CancellationToken ct, int collectPeriod);
+
 
         internal class CollectResult
         {

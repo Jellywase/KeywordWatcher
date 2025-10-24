@@ -10,16 +10,16 @@ namespace KeywordWatcher
 {
     public sealed class KeywordClient
     {
-        readonly int interval;
+        readonly int collectPeriod;
         KeywordCollector collector { get; }
         KeywordAnalyzer analyzer { get; }
         int loopID = 0;
 
-        internal KeywordClient(KeywordCollector collector, KeywordAnalyzer analyzer, int watchInterval)
+        internal KeywordClient(KeywordCollector collector, KeywordAnalyzer analyzer, int collectPeriod)
         {
             this.collector = collector;
             this.analyzer = analyzer;
-            this.interval = watchInterval;
+            this.collectPeriod = collectPeriod;
         }
 
 
@@ -33,7 +33,7 @@ namespace KeywordWatcher
                 result.exceptions = exceptions;
                 try
                 { 
-                    var collectResult = await collector.CollectData();
+                    var collectResult = await collector.CollectData(ct, collectPeriod);
                     exceptions.AddRange(collectResult.exceptions);
                     if (!collectResult.isSuccessful || collectResult.cd == null)
                     { throw new Exception("Keyword Collecting process failed."); }
@@ -51,12 +51,10 @@ namespace KeywordWatcher
                     exceptions.Add(ex);
                     result.isSuccessful = false;
                 }
-                finally
-                {
-                    result.loopID = ++loopID;
-                    loopHandler?.Report(result);
-                    await Task.Delay(interval, ct);
-                }
+                result.loopID = ++loopID;
+                loopHandler?.Report(result);
+                // 최소 지연 보장
+                await Task.Delay(100);
             }
         }
 

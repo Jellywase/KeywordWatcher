@@ -4,3 +4,16 @@ D:\Jellywase\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatc
 D:\Jellywase\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.AssemblyInfo.cs
 D:\Jellywase\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.csproj.CoreCompileInputs.cache
 D:\Jellywase\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.sourcelink.json
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\bin\Debug\net8.0\KeywordWatcher.deps.json
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\bin\Debug\net8.0\KeywordWatcher.dll
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\bin\Debug\net8.0\KeywordWatcher.pdb
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.csproj.AssemblyReference.cache
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.GeneratedMSBuildEditorConfig.editorconfig
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.AssemblyInfoInputs.cache
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.AssemblyInfo.cs
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.csproj.CoreCompileInputs.cache
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.sourcelink.json
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.dll
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\refint\KeywordWatcher.dll
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.pdb
+E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\ref\KeywordWatcher.dll

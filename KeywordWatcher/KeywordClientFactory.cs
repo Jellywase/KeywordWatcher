@@ -15,7 +15,7 @@ namespace KeywordWatcher
             switch (clientType)
             {
                 case Type.dcUSStockGallery:
-                    return new KeywordClient(new DCUSStockKeywordCollector(httpClient), new(6), 60000);
+                    return new KeywordClient(new DCUSStockKeywordCollector(httpClient), new(6), 600000);
 
                 default:
                     return null;

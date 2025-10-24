@@ -13,7 +13,8 @@ namespace KeywordWatcher.DC
     {
         protected abstract string boardCode { get; }
         readonly HttpClient httpClient;
-        long currentPostID = 0;
+        const long maxPostCount = 100000;
+        long currentPostID = -1;
 
         public DCKeywordCollector(HttpClient httpClient)
         {
@@ -21,13 +22,29 @@ namespace KeywordWatcher.DC
         }
 
 
-        public override async Task<KeywordCollector.CollectResult> CollectData()
+        public override async Task<KeywordCollector.CollectResult> CollectData(CancellationToken ct, int collectPeriod)
         {
             KeywordCollector.CollectResult result = new();
             CollectedData newCD = new CollectedData(DateTime.Now, $"DC {boardCode}", "");
             List<Exception> exceptions = new();
             result.cd = newCD;
             result.exceptions = exceptions;
+
+            try
+            {
+                if (currentPostID == -1)
+                {
+                    currentPostID = await GetFrontPostID();
+                }
+                await Task.Delay(collectPeriod, ct);
+            }
+            catch (Exception e)
+            {
+                exceptions.Add(e);
+                result.isSuccessful = false;
+                return result;
+            }
+
 
             try
             {
@@ -50,6 +67,8 @@ namespace KeywordWatcher.DC
             result.exceptions = exceptions;
 
             long frontPostID = await GetFrontPostID();
+            currentPostID = Math.Max(frontPostID - maxPostCount, currentPostID);
+
             const int retryLimit = 3;
             int retryCount = 0;
             while (currentPostID <= frontPostID)
@@ -91,23 +110,48 @@ namespace KeywordWatcher.DC
 
         async Task<long> GetFrontPostID()
         {
-            using var response = await httpClient.GetAsync($"https://gall.dcinside.com/mgallery/board/lists/?id={boardCode}");
-            var htmlString = await response.Content.ReadAsStringAsync();
-            const string prefix = "data-no=\"";
-
-            List<long> postIDs = new();
-            int newPrefixIndex = 0;
-            int newSearchIndex = 0;
-            while ((newPrefixIndex = htmlString.IndexOf(prefix, newSearchIndex)) != -1)
+            long result = -1;
+            const int retryLimit = 5;
+            int retryCount = 0;
+            while (retryCount < retryLimit)
             {
-                int newPostIDIndex = newPrefixIndex + prefix.Length;
-                int endOfNewPostIDIndex = htmlString.IndexOf('"', newPostIDIndex);
-                newSearchIndex = endOfNewPostIDIndex + 1;
-                if (long.TryParse(htmlString[newPostIDIndex..endOfNewPostIDIndex], out long postID));
-                { postIDs.Add(postID); }
+                try
+                {
+                    using var response = await httpClient.GetAsync($"https://gall.dcinside.com/mgallery/board/lists/?id={boardCode}");
+                    var htmlString = await response.Content.ReadAsStringAsync();
+                    const string prefix = "data-no=\"";
+
+                    List<long> postIDs = new();
+                    int newPrefixIndex = 0;
+                    int newSearchIndex = 0;
+                    while ((newPrefixIndex = htmlString.IndexOf(prefix, newSearchIndex)) != -1)
+                    {
+                        int newPostIDIndex = newPrefixIndex + prefix.Length;
+                        int endOfNewPostIDIndex = htmlString.IndexOf('"', newPostIDIndex);
+                        newSearchIndex = endOfNewPostIDIndex + 1;
+                        if (long.TryParse(htmlString[newPostIDIndex..endOfNewPostIDIndex], out long postID))
+                        { postIDs.Add(postID); }
+                    }
+
+                    // 종종 response로 status는 OK를 반환하지만 content string은 빈 문자열인 경우가 있음.
+                    if (postIDs.Count == 0 && (await response.Content.ReadAsByteArrayAsync()).Length == 0)
+                    {
+                        throw new Exception();
+                    }
+                    else
+                    {
+                        result = postIDs.Max();
+                        break;
+                    }
+                }
+                catch (Exception e)
+                {
+                    retryCount++;
+                }
             }
-            long max = postIDs.Max();
-            return max;
+            if (result == -1)
+            { throw new Exception("Can't get dc front post id."); }
+            return result;
         }
 
 
@@ -119,7 +163,7 @@ namespace KeywordWatcher.DC
                 var distinctedMorphs = result.morphs.DistinctBy((token) => token.form);
                 foreach (var token in distinctedMorphs)
                 {
-                    if (token.tag.StartsWith("N"))
+                    if (token.tag is "NNG" or "NNP" or "SL") // NNG: 일반 명사, NNP: 고유 명사, SL: 알파벳(티커)
                     {
                         cd.AddKeywordCount(token.form, 1);
                     }

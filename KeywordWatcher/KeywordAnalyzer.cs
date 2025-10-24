@@ -136,7 +136,7 @@ namespace KeywordWatcher
 
                         if (!analyzedKeywords.TryGetValue(keyword, out var ak))
                         {
-                            ak = new AnalyzedKeyword(keyword);
+                            analyzedKeywords[keyword] = ak = new AnalyzedKeyword(keyword);
                         }
                         ak.totalF += kd.frequency;
                         ak.totalSqrF += (int)Sqr(kd.frequency);

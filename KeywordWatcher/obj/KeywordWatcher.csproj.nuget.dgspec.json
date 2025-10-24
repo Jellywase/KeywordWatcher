@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Jellywase\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj": {}
+    "E:\\BackUp\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj": {}
   },
   "projects": {
-    "D:\\Jellywase\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj": {
+    "E:\\BackUp\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Jellywase\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj",
+        "projectUniqueName": "E:\\BackUp\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj",
         "projectName": "KeywordWatcher",
-        "projectPath": "D:\\Jellywase\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj",
+        "projectPath": "E:\\BackUp\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj",
         "packagesPath": "C:\\Users\\jelly\\.nuget\\packages\\",
-        "outputPath": "D:\\Jellywase\\Projects\\KeywordWatcher\\KeywordWatcher\\obj\\",
+        "outputPath": "E:\\BackUp\\Projects\\KeywordWatcher\\KeywordWatcher\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\ProgramFiles\\VisualStudio\\SDK\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\jelly\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
