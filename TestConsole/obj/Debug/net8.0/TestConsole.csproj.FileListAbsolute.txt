@@ -18,3 +18,12 @@ E:\BackUp\Projects\KeywordCollector\TestConsole\obj\Debug\net8.0\refint\TestCons
 E:\BackUp\Projects\KeywordCollector\TestConsole\obj\Debug\net8.0\TestConsole.pdb
 E:\BackUp\Projects\KeywordCollector\TestConsole\obj\Debug\net8.0\TestConsole.genruntimeconfig.cache
 E:\BackUp\Projects\KeywordCollector\TestConsole\obj\Debug\net8.0\ref\TestConsole.dll
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestConsole.csproj.AssemblyReference.cache
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestConsole.AssemblyInfoInputs.cache
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestConsole.AssemblyInfo.cs
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestConsole.csproj.CoreCompileInputs.cache
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestConsole.sourcelink.json
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestConsole.dll
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\refint\TestConsole.dll
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestConsole.pdb

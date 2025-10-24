@@ -50,6 +50,15 @@ namespace KeywordWatcher
             keywordData.frequency += count;
         }
 
+        public float GetRatio(string keyword)
+        {
+            if (N == 0)
+            { return 0f; }
+            if (keywordsInternal.TryGetValue(keyword, out var kd))
+            { return kd.frequency / N; }
+            return 0f;
+        }
+
         public void CountN()
         {
             N++;
@@ -96,5 +105,6 @@ namespace KeywordWatcher
         public int N { get; }
         public IReadOnlyDictionary<string, IReadOnlyKeywordData> keywords { get; }
         public IReadOnlyCollectedData DeepCopy();
+        public float GetRatio(string keyword);
     }
 }

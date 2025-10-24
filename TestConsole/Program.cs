@@ -11,7 +11,7 @@ public class Program
 {
     public static async Task Main(string[] args)
     {
-
+        Console.WriteLine(MathF.Pow(3, 3));
         while (true)
         { }
     }
