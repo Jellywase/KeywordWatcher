@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AngleSharp.Dom.Events;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -8,9 +9,8 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Web;
-using static System.Net.WebRequestMethods;
 
-internal class RedditApp
+internal class RedditApp : IDisposable
 {
     HttpClient httpClient;
     readonly string userAgent = "CollectingBot/1.0 by jellywase";
@@ -24,9 +24,11 @@ internal class RedditApp
     string accessToken = string.Empty;
     string refreshToken = string.Empty;
 
-    public RedditApp(HttpClient httpClient)
+    public RedditApp()
     {
-        this.httpClient = httpClient;
+        // 레딧 장려 가이드라인으로 인해 새로운 httpclient 생성.
+        this.httpClient = new HttpClient();
+        httpClient.DefaultRequestHeaders.Add("User-Agent", $"windows:redditapp:v0.0.1(by / u / {username})");
     }
 
     public async Task Initialize()
@@ -81,7 +83,6 @@ internal class RedditApp
 
         accessToken = responseJson.GetProperty("access_token").GetString() ?? string.Empty;
         refreshToken = responseJson.GetProperty("refresh_token").GetString() ?? string.Empty;
-
     }
 
     async Task RefreshAccessToken()
@@ -99,12 +100,23 @@ internal class RedditApp
         if (!refreshResponse.IsSuccessStatusCode)
         {
             throw new Exception("RedditApp 액세스 토큰 갱신 실패.");
-            return;
         }
 
         string responseString = await refreshResponse.Content.ReadAsStringAsync();
         var responseJson = JsonSerializer.Deserialize<JsonElement>(responseString);
 
         accessToken = responseJson.GetProperty("access_token").GetString() ?? string.Empty;
+    }
+
+    public async Task A()
+    {
+        httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+        var response = await httpClient.GetAsync("https://oauth.reddit.com/redditdev+cats/comments/");
+    }
+
+    public void Dispose()
+    {
+        httpClient?.Dispose();
     }
 }
