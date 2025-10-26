@@ -10,7 +10,7 @@ namespace KeywordWatcher.ApeWisdom
     {
         public override Task<CollectResult> CollectData(CancellationToken ct, int collectPeriod)
         {
-            
+            throw new NotImplementedException();
         }
     }
 }

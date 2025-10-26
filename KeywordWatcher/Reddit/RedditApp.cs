@@ -108,7 +108,7 @@ internal class RedditApp : IDisposable
         accessToken = responseJson.GetProperty("access_token").GetString() ?? string.Empty;
     }
 
-    public async Task A()
+    public async Task GetHot()
     {
         httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
