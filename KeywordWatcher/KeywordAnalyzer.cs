@@ -112,16 +112,12 @@ namespace KeywordWatcher
 
                 // 목표 cumulative보다 축적된 cumulative가 적은 경우 대응하여 actualCumulative 로 대체.
                 int actualCumulative = leastCumulative;
-                for (int i = leastCumulative; i < cumulative; i++)
+                while (actualCumulative < cumulative && cdSequence[actualCumulative] != null)
                 {
-                    if (cdSequence[i] == null)
-                    {
-                        actualCumulative = i;
-                        break; 
-                    }
+                    actualCumulative++;
                 }
 
-                AnalyzedData ad = new(frontCD.name, frontCD.time, actualCumulative);
+                AnalyzedData ad = new(frontCD.name, frontCD, actualCumulative);
 
                 // AnalyzedKeyword 인스턴스를 만들고 키워드 빈도를 누적 집계
                 Dictionary<string, AnalyzedKeyword> analyzedKeywords = new();
@@ -143,6 +139,12 @@ namespace KeywordWatcher
                         var r = cd.GetRatio(keyword);
                         ak.totalR += r;
                         ak.totalSqrR += Sqr(r);
+
+                        // 선두 빈도 저장
+                        if (i == 0)
+                        {
+                            ak.frontF = kd.frequency;
+                        }
                     }
                 }
 
@@ -172,7 +174,7 @@ namespace KeywordWatcher
                     float r_1 = secondCD.GetRatio(keyword);
 
                     // 점수 산출
-                    ak.score = Scoring2(0.7f, 0.3f, r, r_1, ak.avgR, ak.stdDevR);
+                    ak.score = Scoring2(0.5f, 0.5f, r, r_1, ak.avgR, ak.stdDevR);
 
                     ad.AddAnalyzedKeyword(ak);
                 }
@@ -187,9 +189,17 @@ namespace KeywordWatcher
         }
         float Scoring2(float alpha, float beta, float r, float r_1, float avgR, float stdDevR)
         {
-            float epsilon = 1e-6f;
+            
+            float x = (r - avgR) / MathF.Sqrt(stdDevR);
+            float y = (r - r_1) / MathF.Sqrt((r + r_1) / 2);
+            float result = alpha * x + beta * y;
+            return result;
+        }
 
-            float result = alpha * (r - avgR) / stdDevR + beta * MathF.Log(1 + (r - r_1) / (r_1 + epsilon));
+        float Scoring3(float alpha, float beta, float r, float r_1, float avgR, float stdDevR)
+        {
+            float epsilon = 1e-6f;
+            float result = (1 - MathF.Pow(r - 1, 4)) * (alpha * (r - avgR) / stdDevR + beta * MathF.Log(1 + (r - r_1) / (r_1 + epsilon)));
             return result;
         }
 

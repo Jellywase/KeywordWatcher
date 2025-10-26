@@ -16,7 +16,7 @@ namespace KeywordWatcher
         [JsonInclude]
         public string description { get; }
         [JsonInclude]
-        public int N { get; private set; }
+        public int N { get; set; }
         public IReadOnlyDictionary<string, IReadOnlyKeywordData> keywords => keywordsInternal;
         Dictionary<string, IReadOnlyKeywordData> keywordsInternal;
 
@@ -31,6 +31,7 @@ namespace KeywordWatcher
         public IReadOnlyCollectedData DeepCopy()
         {
             var newData = new CollectedData(time, name, description);
+            newData.N = N;
             foreach (var kvp in keywords)
             {
                 var keywordData = kvp.Value;
@@ -57,11 +58,6 @@ namespace KeywordWatcher
             if (keywordsInternal.TryGetValue(keyword, out var kd))
             { return (float)kd.frequency / N; }
             return 0f;
-        }
-
-        public void CountN()
-        {
-            N++;
         }
 
         //public void Compare(IReadOnlyCollectedData compare)

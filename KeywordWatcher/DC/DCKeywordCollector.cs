@@ -90,7 +90,7 @@ namespace KeywordWatcher.DC
                             var htmlString = await response.Content.ReadAsStringAsync();
                             var titleAndContent = await DCUtility.ParseFromHTML(htmlString);
                             ExtractKeywords(cd, titleAndContent);
-                            cd.CountN();
+                            cd.N++;
                             currentPostID++;
                             break;
                     }

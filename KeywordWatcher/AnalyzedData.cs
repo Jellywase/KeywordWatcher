@@ -9,15 +9,15 @@ namespace KeywordWatcher
     internal class AnalyzedData : IReadOnlyAnalyzedData
     {
         public string name { get; }
-        public DateTime frontCDTime { get; }
+        public IReadOnlyCollectedData frontCD { get; }
         public int cumulative { get; set; }
         public IEnumerable<IReadOnlyAnalyzedKeyword> hotKeywords => analyzedKeywords.OrderByDescending((kvp) => kvp.Value.score).Select((kvp) => kvp.Value).ToArray();
         Dictionary<string, IReadOnlyAnalyzedKeyword> analyzedKeywords { get; }
 
-        public AnalyzedData(string name, DateTime frontCDTime, int cumulated)
+        public AnalyzedData(string name, IReadOnlyCollectedData frontCD, int cumulated)
         {
             this.name = name;
-            this.frontCDTime = frontCDTime;
+            this.frontCD = frontCD;
             this.cumulative = cumulated;
             analyzedKeywords = new();
         }
@@ -31,7 +31,7 @@ namespace KeywordWatcher
     public interface IReadOnlyAnalyzedData
     {
         public string name { get; }
-        public DateTime frontCDTime { get; }
+        public IReadOnlyCollectedData frontCD { get; }
         public int cumulative { get; }
         public IEnumerable<IReadOnlyAnalyzedKeyword> hotKeywords { get; }
     }
