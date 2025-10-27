@@ -11,20 +11,20 @@ namespace KeywordWatcher
         public string name { get; }
         public IReadOnlyCollectedData frontCD { get; }
         public int cumulative { get; set; }
-        public IEnumerable<IReadOnlyAnalyzedKeyword> hotKeywords => analyzedKeywords.OrderByDescending((kvp) => kvp.Value.score).Select((kvp) => kvp.Value).ToArray();
-        Dictionary<string, IReadOnlyAnalyzedKeyword> analyzedKeywords { get; }
+        public IReadOnlyDictionary<string, IReadOnlyAnalyzedKeyword> analyzedKeywords => analyzedKeywords_Internal;
+        Dictionary<string, IReadOnlyAnalyzedKeyword> analyzedKeywords_Internal { get; }
 
         public AnalyzedData(string name, IReadOnlyCollectedData frontCD, int cumulated)
         {
             this.name = name;
             this.frontCD = frontCD;
             this.cumulative = cumulated;
-            analyzedKeywords = new();
+            analyzedKeywords_Internal = new();
         }
 
         public void AddAnalyzedKeyword(IReadOnlyAnalyzedKeyword ak)
         {
-            analyzedKeywords[ak.keyword] = ak;
+            analyzedKeywords_Internal[ak.keyword] = ak;
         }
     }
 
@@ -33,6 +33,6 @@ namespace KeywordWatcher
         public string name { get; }
         public IReadOnlyCollectedData frontCD { get; }
         public int cumulative { get; }
-        public IEnumerable<IReadOnlyAnalyzedKeyword> hotKeywords { get; }
+        public IReadOnlyDictionary<string, IReadOnlyAnalyzedKeyword> analyzedKeywords { get; }
     }
 }

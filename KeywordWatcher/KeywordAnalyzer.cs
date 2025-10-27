@@ -120,7 +120,6 @@ namespace KeywordWatcher
                 AnalyzedData ad = new(frontCD.name, frontCD, actualCumulative);
 
                 // AnalyzedKeyword 인스턴스를 만들고 키워드 빈도를 누적 집계
-                Dictionary<string, AnalyzedKeyword> analyzedKeywords = new();
                 for (int i = 0; i < actualCumulative; i++)
                 {
                     var cd = cdSequence[i];
@@ -130,10 +129,13 @@ namespace KeywordWatcher
                         string keyword = kvp.Key;
                         var kd = kvp.Value;
 
-                        if (!analyzedKeywords.TryGetValue(keyword, out var ak))
+                        AnalyzedKeyword ak;
+                        if (!ad.analyzedKeywords.TryGetValue(keyword, out var rak))
                         {
-                            analyzedKeywords[keyword] = ak = new AnalyzedKeyword(keyword);
+                            rak = ak = new AnalyzedKeyword(keyword);
+                            ad.AddAnalyzedKeyword(ak);
                         }
+                        ak = (AnalyzedKeyword)rak;
                         ak.totalF += kd.frequency;
                         ak.totalSqrF += (int)Sqr(kd.frequency);
                         var r = cd.GetRatio(keyword);
@@ -149,10 +151,10 @@ namespace KeywordWatcher
                 }
 
                 // 키워드 집계로부터 통계산출
-                foreach (var kvp in analyzedKeywords)
+                foreach (var kvp in ad.analyzedKeywords)
                 {
                     var keyword = kvp.Key;
-                    var ak = kvp.Value;
+                    var ak = (AnalyzedKeyword)kvp.Value;
 
                     // 누계 마킹
                     ak.cumulative = actualCumulative;
@@ -169,34 +171,50 @@ namespace KeywordWatcher
                     ak.stdDevF = MathF.Sqrt(ak.varF);
                     ak.stdDevR = MathF.Sqrt(ak.varR);
 
+                    // 빈도 비율
                     float r = frontCD.GetRatio(keyword);
-
                     float r_1 = secondCD.GetRatio(keyword);
 
+                    // EMAR
+                    float lastEMAR;
+                    if (lastAD == null)
+                    { lastEMAR = 0; }
+                    else
+                    { lastEMAR = lastAD.analyzedKeywords.TryGetValue(keyword, out var lak) ? lak.emaR : 0; }
+                    ak.emaR = GetEMAR(2f / (cumulative + 1f), lastEMAR, r);
+
                     // 점수 산출
-                    ak.score = Scoring2(0.5f, 0.5f, r, r_1, ak.avgR, ak.stdDevR);
+                    ak.score = Scoring1(0.5f, 0.5f, r, r_1, ak.avgR, ak.stdDevR);
 
                     ad.AddAnalyzedKeyword(ak);
                 }
                 return ad;
             }
         }
-
-        float Scoring1(float alpha, float beta, float f, float f_1, float avgF, float stdDevF)
+        float Scoring1(float alpha, float beta, float r, float r_1, float avgR, float stdDevR)
         {
-            float result = alpha * (f - avgF) / stdDevF + beta * (f - f_1) / (f_1 + 1);
+
+            float x = (r - avgR) / MathF.Sqrt(stdDevR);
+            float y = (r - r_1) / MathF.Sqrt((r + r_1) / 2);
+            float result = alpha * x + beta * y;
             return result;
         }
         float Scoring2(float alpha, float beta, float r, float r_1, float avgR, float stdDevR)
         {
-            
+
             float x = (r - avgR) / MathF.Sqrt(stdDevR);
             float y = (r - r_1) / MathF.Sqrt((r + r_1) / 2);
             float result = alpha * x + beta * y;
             return result;
         }
 
-        float Scoring3(float alpha, float beta, float r, float r_1, float avgR, float stdDevR)
+        float Scoring3(float alpha, float beta, float f, float f_1, float avgF, float stdDevF)
+        {
+            float result = alpha * (f - avgF) / stdDevF + beta * (f - f_1) / (f_1 + 1);
+            return result;
+        }
+
+        float Scoring4(float alpha, float beta, float r, float r_1, float avgR, float stdDevR)
         {
             float epsilon = 1e-6f;
             float result = (1 - MathF.Pow(r - 1, 4)) * (alpha * (r - avgR) / stdDevR + beta * MathF.Log(1 + (r - r_1) / (r_1 + epsilon)));
@@ -205,6 +223,11 @@ namespace KeywordWatcher
 
         float Sqr(float x)
         { return x * x; }
+
+        float GetEMAR(float lambda, float lastEMAR, float r)
+        {
+            return lambda * r + (1 - lambda) * lastEMAR;
+        }
 
         public class AnalyzeResult
         {

@@ -44,9 +44,10 @@ public class Program
 
             var ad = lr.analyzedData;
             int cnt = 0;
-            foreach (var kw in ad.hotKeywords)
+            var hot = ad.analyzedKeywords.OrderByDescending((kvp) => kvp.Value.score).Select((kvp) => kvp.Value).ToArray();
+            foreach (var ak in hot)
             {
-                Console.WriteLine($"{kw.keyword} : score - {kw.score} , avgR - {kw.avgR} , avgF - {kw.avgF} , F - {kw.frontF}");
+                Console.WriteLine($"{ak.keyword} : score - {ak.score} , avgR - {ak.avgR} , avgF - {ak.avgF} , F - {ak.frontF}");
                 cnt++;
                 if (cnt == 10)
                 { break; }
