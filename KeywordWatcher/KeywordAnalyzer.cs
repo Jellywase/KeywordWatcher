@@ -107,8 +107,10 @@ namespace KeywordWatcher
                 // 두번째 CD 캐싱.
                 var secondCD = cdSequence[1];
                 if (secondCD == null)
-                    // 두번째 CD가 없는 경우 빈 CD 할당
-                { cdSequence[1] = secondCD = new CollectedData(frontCD.time, frontCD.name, frontCD.description); }
+                    // 두번째 CD가 없는 경우 첫번째 CD의 복사본 할당
+                { 
+                    cdSequence[1] = secondCD = frontCD.DeepCopy();
+                }
 
                 // 목표 cumulative보다 축적된 cumulative가 적은 경우 대응하여 actualCumulative 로 대체.
                 int actualCumulative = leastCumulative;
@@ -146,6 +148,7 @@ namespace KeywordWatcher
                         if (i == 0)
                         {
                             ak.frontF = kd.frequency;
+                            ak.frontR = cd.GetRatio(keyword);
                         }
                     }
                 }
@@ -165,7 +168,7 @@ namespace KeywordWatcher
 
                     // 키워드 분산
                     ak.varF = ((float)ak.totalSqrF / actualCumulative) - Sqr(ak.avgF);
-                    ak.varR = (ak.totalSqrR / actualCumulative) - Sqr(ak.varR);
+                    ak.varR = (ak.totalSqrR / actualCumulative) - Sqr(ak.avgR);
 
                     // 키워드 표준편차
                     ak.stdDevF = MathF.Sqrt(ak.varF);

@@ -18,6 +18,8 @@ namespace KeywordWatcher
         [JsonInclude]
         public int frontF { get; set; }
         [JsonInclude]
+        public float frontR { get; set; }
+        [JsonInclude]
         public int totalF { get; set; }
         [JsonInclude]
         public float totalR { get; set; }
@@ -54,6 +56,7 @@ namespace KeywordWatcher
         public float score { get; }
         public int cumulative { get; }
         public int frontF { get; }
+        public float frontR { get; }
         public int totalF { get; }
         public float avgF { get; }
         public float avgR { get; }

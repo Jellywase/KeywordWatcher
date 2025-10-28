@@ -13,9 +13,9 @@ public class Program
     public static async Task Main(string[] args)
     {
 
-        Tester tester = new();
-        await tester.Test();
-        return;
+        //Tester tester = new();
+        //await tester.Test();
+        //return;
 
 
         HttpClient httpClient = new HttpClient();
@@ -47,7 +47,7 @@ public class Program
             var hot = ad.analyzedKeywords.OrderByDescending((kvp) => kvp.Value.score).Select((kvp) => kvp.Value).ToArray();
             foreach (var ak in hot)
             {
-                Console.WriteLine($"{ak.keyword} : score - {ak.score} , avgR - {ak.avgR} , avgF - {ak.avgF} , F - {ak.frontF}");
+                Console.WriteLine($"{ak.keyword} : score - {ak.score} , avgR - {ak.avgR} , avgF - {ak.avgF} , F - {ak.frontF} , R - {ak.frontR}");
                 cnt++;
                 if (cnt == 10)
                 { break; }
