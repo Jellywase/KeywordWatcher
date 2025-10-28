@@ -36,6 +36,8 @@ namespace KeywordWatcher
         [JsonInclude]
         public float varR { get; set; }
         [JsonInclude]
+        public float emvR { get; set; }
+        [JsonInclude]
         public float stdDevF { get; set; }
         [JsonInclude]
         public float stdDevR { get; set; }
@@ -55,7 +57,6 @@ namespace KeywordWatcher
         public int totalF { get; }
         public float avgF { get; }
         public float avgR { get; }
-        public float emaR { get; }
         public float stdDevF { get; }
     }
 }

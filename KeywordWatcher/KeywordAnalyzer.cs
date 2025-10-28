@@ -175,19 +175,27 @@ namespace KeywordWatcher
                     float r = frontCD.GetRatio(keyword);
                     float r_1 = secondCD.GetRatio(keyword);
 
-                    // EMAR
-                    float lastEMAR;
-                    if (lastAD == null)
-                    { lastEMAR = 0; }
+                    // EMAR, EMVR
+                    float lastEMAR, lastEMVR;
+                    if (lastAD == null || !lastAD.analyzedKeywords.TryGetValue(keyword, out var lrak) && lrak is not AnalyzedKeyword)
+                    { lastEMAR = lastEMVR = 0; }
                     else
-                    { lastEMAR = lastAD.analyzedKeywords.TryGetValue(keyword, out var lak) ? lak.emaR : 0; }
-                    ak.emaR = GetEMAR(2f / (cumulative + 1f), lastEMAR, r);
+                    {
+                        var lak = (AnalyzedKeyword)lrak;
+                        lastEMAR = lak.emaR;
+                        lastEMVR = lak.emvR;
+                    }
+                    float lambda = 2f / (cumulative + 1f);
+                    ak.emaR = GetEMAR(lambda, lastEMAR, r);
+                    ak.emvR = GetEMVR(lambda, lastEMVR, lastEMAR, r);
 
                     // 점수 산출
-                    ak.score = Scoring1(0.5f, 0.5f, r, r_1, ak.avgR, ak.stdDevR);
+                    //ak.score = Scoring1(0.5f, 0.5f, r, r_1, ak.avgR, ak.stdDevR);
+                    ak.score = Scoring2(0.5f, 0.5f, r, r_1, ak.emaR, ak.emvR);
 
                     ad.AddAnalyzedKeyword(ak);
                 }
+                lastAD = ad;
                 return ad;
             }
         }
@@ -199,18 +207,12 @@ namespace KeywordWatcher
             float result = alpha * x + beta * y;
             return result;
         }
-        float Scoring2(float alpha, float beta, float r, float r_1, float avgR, float stdDevR)
+        float Scoring2(float alpha, float beta, float r, float r_1, float emaR, float emvR)
         {
-
-            float x = (r - avgR) / MathF.Sqrt(stdDevR);
+            float emsdR = MathF.Sqrt(emvR);
+            float x = (r - emaR) / MathF.Sqrt(emsdR);
             float y = (r - r_1) / MathF.Sqrt((r + r_1) / 2);
             float result = alpha * x + beta * y;
-            return result;
-        }
-
-        float Scoring3(float alpha, float beta, float f, float f_1, float avgF, float stdDevF)
-        {
-            float result = alpha * (f - avgF) / stdDevF + beta * (f - f_1) / (f_1 + 1);
             return result;
         }
 
@@ -227,6 +229,10 @@ namespace KeywordWatcher
         float GetEMAR(float lambda, float lastEMAR, float r)
         {
             return lambda * r + (1 - lambda) * lastEMAR;
+        }
+        float GetEMVR(float lambda, float lastEMVR, float lastEMAR, float r)
+        {
+            return (1 - lambda) * (lastEMVR + lambda * MathF.Pow(r - lastEMAR, 2));
         }
 
         public class AnalyzeResult
