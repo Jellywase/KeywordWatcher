@@ -12,8 +12,8 @@ public class Program
 {
     public static async Task Main(string[] args)
     {
-        await Tester.Test();
-        return;
+        //await Tester.Test();
+        //return;
 
         HttpClient httpClient = new HttpClient();
         httpClient.DefaultRequestHeaders.Add("User-Agent", "E");

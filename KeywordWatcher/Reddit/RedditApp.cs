@@ -60,7 +60,7 @@ namespace KeywordWatcher.Reddit
 
         bool initialized = false;
 
-        readonly Utility.APIUsage apiUsage = new APIUsage(90);
+        readonly Utility.APIUsage apiUsage = new Utility.APIUsage(90);
 
         public RedditApp()
         {

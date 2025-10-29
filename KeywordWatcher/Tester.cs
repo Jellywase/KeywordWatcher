@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KeywordWatcher.Reddit;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -11,6 +12,9 @@ namespace KeywordWatcher
     {
         public static async Task Test()
         {
+            await CatalystProvider.Analyze("I am happy with apple. RZLV will rise again!");
+            return;
+
             RedditApp redditApp = new();
             await redditApp.Initialize();
             var json = await redditApp.GetHotPosts("stocks");

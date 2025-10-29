@@ -9,12 +9,16 @@ namespace KeywordWatcher
 {
     internal static class KiwiProvider
     {
+        static object lockObj = new();
         public static SharpKiwi kiwi
         {
             get
             {
-                _kiwi ??= new SharpKiwi();
-                return _kiwi;
+                lock (lockObj)
+                {
+                    _kiwi ??= new SharpKiwi();
+                    return _kiwi;
+                }
             }
         }
         static SharpKiwi _kiwi;

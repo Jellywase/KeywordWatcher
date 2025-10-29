@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[1.3.0, )"
             },
+            "Catalyst.Models.English": {
+              "target": "Package",
+              "version": "[1.0.30952, )"
+            },
             "NetKiwi": {
               "target": "Package",
               "version": "[1.4.0, )"

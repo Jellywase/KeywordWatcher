@@ -32,7 +32,7 @@ namespace KeywordWatcher.DC
             title = System.Net.WebUtility.HtmlDecode(title).Trim();
             content = System.Net.WebUtility.HtmlDecode(content);
             content = Regex.Replace(content, @"\s+", " ").Trim();
-            return title + content;
+            return title + " " + content;
         }
     }
 }
