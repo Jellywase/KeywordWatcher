@@ -140,24 +140,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jelly\\.nuget\\packages\\": {},
-    "D:\\ProgramFiles\\VisualStudio\\SDK\\NuGetPackages": {}
+    "C:\\Users\\jelly\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Jellywase\\Projects\\KeywordWatcher\\TestConsole\\TestConsole.csproj",
+      "projectUniqueName": "E:\\BackUp\\Projects\\KeywordWatcher\\TestConsole\\TestConsole.csproj",
       "projectName": "TestConsole",
-      "projectPath": "D:\\Jellywase\\Projects\\KeywordWatcher\\TestConsole\\TestConsole.csproj",
+      "projectPath": "E:\\BackUp\\Projects\\KeywordWatcher\\TestConsole\\TestConsole.csproj",
       "packagesPath": "C:\\Users\\jelly\\.nuget\\packages\\",
-      "outputPath": "D:\\Jellywase\\Projects\\KeywordWatcher\\TestConsole\\obj\\",
+      "outputPath": "E:\\BackUp\\Projects\\KeywordWatcher\\TestConsole\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\ProgramFiles\\VisualStudio\\SDK\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\jelly\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -171,8 +166,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Jellywase\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj": {
-              "projectPath": "D:\\Jellywase\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj"
+            "E:\\BackUp\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj": {
+              "projectPath": "E:\\BackUp\\Projects\\KeywordWatcher\\KeywordWatcher\\KeywordWatcher.csproj"
             }
           }
         }
