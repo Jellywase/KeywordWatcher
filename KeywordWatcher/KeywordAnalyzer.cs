@@ -222,7 +222,7 @@ namespace KeywordWatcher
         float Scoring2(float alpha, float beta, float r, float r_1, float emaR, float emvR)
         {
             float emsdR = MathF.Sqrt(emvR);
-            float x = (r - emaR) / MathF.Sqrt(emsdR);
+            float x = emsdR > 0f ? (r - emaR) / MathF.Sqrt(emsdR) : 0;
             float y = (r - r_1) / MathF.Sqrt((r + r_1) / 2);
             float result = alpha * x + beta * y;
             return result;
