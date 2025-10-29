@@ -85,8 +85,8 @@ namespace KeywordWatcher.Reddit
                     foreach (var tk in distinctedAnalyzedTarget)
                     {
                         newCD.AddKeywordCount(tk.keyword, score);
-                        newCD.N += score;
                     }
+                    newCD.N += score;
                     targetIndex++;
                 }
 

@@ -95,6 +95,7 @@ namespace KeywordWatcher.DC
                             var htmlString = await response.Content.ReadAsStringAsync();
                             var titleAndContent = await DCUtility.ParseFromHTML(htmlString);
                             ExtractKeywords(cd, titleAndContent);
+                            cd.N++;
                             currentPostID++;
                             break;
                     }
@@ -170,7 +171,6 @@ namespace KeywordWatcher.DC
                     if (token.tag is "NNG" or "NNP" or "SL") // NNG: 일반 명사, NNP: 고유 명사, SL: 알파벳(티커)
                     {
                         cd.AddKeywordCount(token.form, 1);
-                        cd.N++;
                     }
                 }
             }

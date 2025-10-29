@@ -56,7 +56,6 @@ public class Program
         _ = Task.Run(() => kc.WatchLoop(cts.Token, handler));
 
 
-        while (true)
-        { }
+        Console.ReadLine();
     }
 }
