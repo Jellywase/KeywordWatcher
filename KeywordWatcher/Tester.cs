@@ -11,20 +11,9 @@ namespace KeywordWatcher
     {
         public static async Task Test()
         {
-            CollectedData cd0 = new CollectedData(DateTime.Now, "CD0", null);
-            cd0.N = 150;
-            for (int i = 0; i < 150; i++)
-            {
-                for (int j = 0; j < 100; j++)
-                {
-                    cd0.AddKeywordCount(j.ToString(), 1);
-                }
-            }
-            KeywordAnalyzer ka = new KeywordAnalyzer(144);
-            for (int i = 0; i < 144; i++)
-            {
-                await ka.AnalyzeData(cd0);
-            }
+            RedditApp redditApp = new();
+            await redditApp.Initialize();
+            var json = await redditApp.GetHotPosts("stocks");
         }
 
         internal static IStopwatch CreateStopwatch()

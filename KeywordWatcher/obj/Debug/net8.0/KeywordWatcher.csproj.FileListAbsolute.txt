@@ -17,3 +17,10 @@ E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher
 E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\refint\KeywordWatcher.dll
 E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.pdb
 E:\BackUp\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\ref\KeywordWatcher.dll
+D:\Jellywase\Projects\KeywordWatcher\KeywordWatcher\bin\Debug\net8.0\KeywordWatcher.deps.json
+D:\Jellywase\Projects\KeywordWatcher\KeywordWatcher\bin\Debug\net8.0\KeywordWatcher.dll
+D:\Jellywase\Projects\KeywordWatcher\KeywordWatcher\bin\Debug\net8.0\KeywordWatcher.pdb
+D:\Jellywase\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.dll
+D:\Jellywase\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\refint\KeywordWatcher.dll
+D:\Jellywase\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\KeywordWatcher.pdb
+D:\Jellywase\Projects\KeywordWatcher\KeywordWatcher\obj\Debug\net8.0\ref\KeywordWatcher.dll

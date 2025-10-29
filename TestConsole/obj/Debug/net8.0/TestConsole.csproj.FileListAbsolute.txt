@@ -48,3 +48,15 @@ E:\BackUp\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\refint\TestConsol
 E:\BackUp\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestConsole.pdb
 E:\BackUp\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestConsole.genruntimeconfig.cache
 E:\BackUp\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\ref\TestConsole.dll
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\bin\Debug\net8.0\TestConsole.exe
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\bin\Debug\net8.0\TestConsole.deps.json
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\bin\Debug\net8.0\TestConsole.runtimeconfig.json
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\bin\Debug\net8.0\TestConsole.dll
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\bin\Debug\net8.0\TestConsole.pdb
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\bin\Debug\net8.0\AngleSharp.dll
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\bin\Debug\net8.0\NetKiwi.dll
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\bin\Debug\net8.0\KeywordWatcher.dll
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\bin\Debug\net8.0\KeywordWatcher.pdb
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestCons.AA59A120.Up2Date
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\TestConsole.genruntimeconfig.cache
+D:\Jellywase\Projects\KeywordWatcher\TestConsole\obj\Debug\net8.0\ref\TestConsole.dll
