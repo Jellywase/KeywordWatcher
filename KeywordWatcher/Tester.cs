@@ -7,63 +7,72 @@ using System.Threading.Tasks;
 
 namespace KeywordWatcher
 {
-    public class Tester
+    public static class Tester
     {
-        Stopwatch sw = new();
-        public async Task Test()
+        public static async Task Test()
         {
             CollectedData cd0 = new CollectedData(DateTime.Now, "CD0", null);
-            cd0.AddKeywordCount("A", 5);
-            cd0.AddKeywordCount("B", 1);
-            cd0.AddKeywordCount("C", 1);
-            cd0.AddKeywordCount("D", 1);
-            cd0.AddKeywordCount("E", 1);
-            //cd0.N+=5;
-            //cd0.N++;
-            //cd0.N++;
-            //cd0.N++;
-            //cd0.N++;
-
-            CollectedData cd1 = cd0.DeepCopy() as CollectedData;
-            cd1.AddKeywordCount("A", 25);
-            //cd1.N += 25;
-
-            cd1.AddKeywordCount("B", 5);
-            //cd1.N += 5;
-
-            cd1.AddKeywordCount("C", 6);
-            //cd1.N += 6;
-
-            cd1.AddKeywordCount("D", 7);
-            //cd1.N += 7;
-
-            cd1.AddKeywordCount("F", 1);
-            //cd1.N++;
-
-            cd1.AddKeywordCount("G", 5);
-            //cd1.N += 5;
-
-            cd1.N = 1000; // 이게 맞아.
-
+            cd0.N = 150;
+            for (int i = 0; i < 150; i++)
+            {
+                for (int j = 0; j < 100; j++)
+                {
+                    cd0.AddKeywordCount(j.ToString(), 1);
+                }
+            }
             KeywordAnalyzer ka = new KeywordAnalyzer(144);
-
-            sw.Start();
             for (int i = 0; i < 144; i++)
             {
                 await ka.AnalyzeData(cd0);
             }
-            var result9 = await ka.AnalyzeData(cd1);
+        }
 
-            sw.Stop();
+        internal static IStopwatch CreateStopwatch()
+        { return new Tester.Stopwatch(); }
 
-            Console.WriteLine($"Elapsed Time: {sw.ElapsedMilliseconds / 1000f}s");
-            Console.WriteLine();
-            foreach (var kvp in result9.ad.analyzedKeywords)
+        internal interface IStopwatch
+        {
+            public void Start();
+            public float Stop();
+            public float Stop(Action<float> action);
+            public void Reset();
+        }
+
+        internal class Stopwatch : IStopwatch
+        {
+            System.Diagnostics.Stopwatch sw = new();
+            public void Start()
             {
-                var keyword = kvp.Key;
-                var ak = kvp.Value;
-                Console.WriteLine( $"{keyword} {ak.score}");
+                sw.Start();
             }
+
+            public float Stop()
+            {
+                sw.Stop();
+                return sw.ElapsedMilliseconds;
+            }
+
+            public float Stop(Action<float> action)
+            {
+                sw.Stop();
+                action?.Invoke(sw.ElapsedMilliseconds);
+                return sw.ElapsedMilliseconds;
+            }
+            public void Reset()
+            {  sw.Reset(); }
+        }
+        internal class VoidStopwatch : IStopwatch
+        {
+            public void Start()
+            { }
+
+            public float Stop()
+            { return -1; }
+
+            public float Stop(Action<float> action)
+            { return -1; }
+            public void Reset()
+            { }
         }
     }
 }

@@ -46,7 +46,13 @@ namespace KeywordWatcher
             try
             {
                 UpdateCDSequence(cd);
+
+                var sw = Tester.CreateStopwatch();
+                sw.Start();
                 result.ad = await AnalyzeCumulativeData();
+                sw.Stop((ms) => Console.WriteLine($"Analyze Cumulative - {ms}ms"));
+                sw.Reset();
+
                 result.isSuccessful = true;
             }
             catch (Exception ex)
@@ -181,7 +187,10 @@ namespace KeywordWatcher
                     // EMAR, EMVR
                     float lastEMAR, lastEMVR;
                     if (lastAD == null || !lastAD.analyzedKeywords.TryGetValue(keyword, out var lrak) && lrak is not AnalyzedKeyword)
-                    { lastEMAR = lastEMVR = 0; }
+                    {
+                        lastEMAR = ak.avgR;
+                        lastEMVR = ak.varR; 
+                    }
                     else
                     {
                         var lak = (AnalyzedKeyword)lrak;

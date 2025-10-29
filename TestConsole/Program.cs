@@ -13,9 +13,7 @@ public class Program
     public static async Task Main(string[] args)
     {
 
-        //Tester tester = new();
-        //await tester.Test();
-        //return;
+        //await Tester.Test();
 
 
         HttpClient httpClient = new HttpClient();

@@ -48,7 +48,12 @@ namespace KeywordWatcher.DC
 
             try
             {
+                var sw = Tester.CreateStopwatch();
+                sw.Start();
                 var fetchPostsResult = await FetchPosts(newCD);
+                sw.Stop((ms) => Console.WriteLine($"DC FetchPosts : {ms}ms, N? = {newCD.N}"));
+                sw.Reset();
+
                 exceptions.AddRange(fetchPostsResult.exceptions);
                 result.isSuccessful = true;
             }

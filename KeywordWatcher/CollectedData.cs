@@ -17,6 +17,7 @@ namespace KeywordWatcher
         public string description { get; }
         [JsonInclude]
         public int N { get; set; }
+        [JsonInclude]
         public IReadOnlyDictionary<string, IReadOnlyKeywordData> keywords => keywordsInternal;
         Dictionary<string, IReadOnlyKeywordData> keywordsInternal;
 
