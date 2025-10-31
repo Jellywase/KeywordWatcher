@@ -203,7 +203,6 @@ namespace KeywordWatcher.DC
                                 var titleAndContent = await DCUtility.ParseFromHTML(htmlString);
                                 ExtractKeywords(keywordAndCount, titleAndContent);
                                 segN++;
-                                currentPostID++;
                                 break;
                         }
                     }
