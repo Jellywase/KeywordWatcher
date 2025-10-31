@@ -36,7 +36,7 @@ namespace KeywordWatcher.DC
                 {
                     currentPostID = await GetFrontPostID();
                 }
-                await Task.Delay(collectPeriod, ct);
+                await Task.Delay(Math.Clamp(collectPeriod, 30000, int.MaxValue), ct);
             }
             catch (Exception e)
             {
@@ -93,7 +93,9 @@ namespace KeywordWatcher.DC
                 int workerPostCount = workerPostCounts[i];
                 FetchWorker worker = new();
                 workers[i] = worker;
-                Task workerTask = Task.Run(() => worker.Run(httpClient, currentPostID, currentPostID + workerPostCount - 1, boardCode));
+                long startPostID = currentPostID;
+                long endPostID = startPostID + workerPostCount - 1;
+                Task workerTask = Task.Run(() => worker.Run(httpClient, startPostID, endPostID, boardCode));
                 workerTasks[i] = workerTask;
                 currentPostID += workerPostCount;
             }
@@ -189,7 +191,6 @@ namespace KeywordWatcher.DC
                         switch (response.StatusCode)
                         {
                             case HttpStatusCode.NotFound:
-                                currentPostID++;
                                 break;
 
                             case HttpStatusCode.TooManyRequests:
