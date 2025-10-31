@@ -17,8 +17,9 @@ public class Program
 
         HttpClient httpClient = new HttpClient();
         httpClient.DefaultRequestHeaders.Add("User-Agent", "E");
+        ServicePointManager.DefaultConnectionLimit = 100;
 
-        var kc = KeywordClientFactory.Create(KeywordClientFactory.Type.dcUSStockGallery, httpClient);
+        var kc = await KeywordClientFactory.Create(KeywordClientFactory.Type.dcUSStock, httpClient);
 
 
         CancellationTokenSource cts = new();

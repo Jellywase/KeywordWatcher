@@ -14,6 +14,9 @@ namespace KeywordWatcher.Reddit
 {
     internal class RedditApp : IDisposable
     {
+        static SemaphoreSlim instSS = new SemaphoreSlim(1, 1);
+        static RedditApp instance;
+
         readonly HttpClient httpClient;
         readonly SemaphoreSlim refreshTokenSS = new SemaphoreSlim(1, 1);
 
@@ -62,14 +65,40 @@ namespace KeywordWatcher.Reddit
 
         readonly Utility.APIUsage apiUsage = new Utility.APIUsage(90);
 
-        public RedditApp()
+        RedditApp()
         {
             // 레딧 가이드라인으로 인해 새로운 httpclient 생성.
             this.httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Add("User-Agent", $"windows.redditapp.v1.0.0 (by /u/{username})");
         }
 
-        public async Task Initialize()
+        public async static Task<RedditApp> GetInstance()
+        {
+            await instSS.WaitAsync();
+            try
+            {
+                if (instance == null)
+                {
+                    instance = new RedditApp();
+                }
+                if (!instance.initialized)
+                {
+                    await instance.Initialize();
+                }
+
+                return instance;
+            }
+            catch
+            {
+                throw;
+            }
+            finally
+            {
+                instSS.Release();
+            }
+        }
+
+        async Task Initialize()
         {
             // 인증 코드 받기
             var builder = new UriBuilder("https://www.reddit.com/api/v1/authorize");

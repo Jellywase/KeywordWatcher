@@ -15,8 +15,7 @@ namespace KeywordWatcher
             await CatalystProvider.Analyze("I am happy with apple. RZLV will rise again!");
             return;
 
-            RedditApp redditApp = new();
-            await redditApp.Initialize();
+            var redditApp = await RedditApp.GetInstance();
             var json = await redditApp.GetHotPosts("stocks");
         }
 

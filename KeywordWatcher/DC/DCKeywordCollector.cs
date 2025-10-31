@@ -71,43 +71,42 @@ namespace KeywordWatcher.DC
             List<Exception> exceptions = new();
             result.exceptions = exceptions;
 
-            long frontPostID = await GetFrontPostID();
+            long frontPostID = await GetFrontPostID() ;
             currentPostID = Math.Max(frontPostID - maxPostCount, currentPostID);
 
-            const int retryLimit = 3;
-            int retryCount = 0;
-            while (currentPostID <= frontPostID)
+            int logicalThreads = 2; // Environment.ProcessorCount;
+            FetchWorker[] workers = new FetchWorker[logicalThreads];
+            Task[] workerTasks = new Task[logicalThreads];
+
+            int totalPostCount = (int)(frontPostID - currentPostID);
+            int div = totalPostCount / logicalThreads;
+            int mod = totalPostCount % logicalThreads;
+            int[] workerPostCounts = new int[logicalThreads];
+            for (int i = 0; i < logicalThreads; i++)
             {
-                try
-                {
-                    using var response = await httpClient.GetAsync($"https://gall.dcinside.com/mgallery/board/view/?id={boardCode}&no={currentPostID}&page=1");
-                    switch (response.StatusCode)
-                    {
-                        case HttpStatusCode.NotFound:
-                            currentPostID++;
-                            break;
-
-                        case HttpStatusCode.TooManyRequests:
-                            await Task.Delay(500);
-                            throw new Exception($"Rate limited.");
-
-                        case HttpStatusCode.OK:
-                            var htmlString = await response.Content.ReadAsStringAsync();
-                            var titleAndContent = await DCUtility.ParseFromHTML(htmlString);
-                            ExtractKeywords(cd, titleAndContent);
-                            cd.N++;
-                            currentPostID++;
-                            break;
-                    }
-                    retryCount = 0;
+                workerPostCounts[i] = div;
+                if (mod > 0)
+                { 
+                    workerPostCounts[i] += 1;
+                    mod--;
                 }
-                catch (Exception e)
+                int workerPostCount = workerPostCounts[i];
+                FetchWorker worker = new();
+                workers[i] = worker;
+                Task workerTask = Task.Run(() => worker.Run(httpClient, currentPostID, currentPostID + workerPostCount - 1, boardCode));
+                workerTasks[i] = workerTask;
+                currentPostID += workerPostCount;
+            }
+
+            await Task.WhenAll(workerTasks);
+
+            foreach (var worker in workers)
+            {
+                exceptions.AddRange(worker.exceptions);
+                cd.N += worker.segN;
+                foreach (var kvp in worker.keywordAndCount)
                 {
-                    exceptions.Add(new Exception($"Error fetching {boardCode} post {currentPostID}. ", e));
-                    if (retryCount < retryLimit)
-                    { retryCount++; }
-                    else
-                    { currentPostID++; }
+                    cd.AddKeywordCount(kvp.Key, kvp.Value);
                 }
             }
             return result;
@@ -151,7 +150,11 @@ namespace KeywordWatcher.DC
                 }
                 catch (Exception e)
                 {
+                }
+                finally
+                {
                     retryCount++;
+                    await Task.Delay(1000 * retryCount);
                 }
             }
             if (result == -1)
@@ -160,25 +163,78 @@ namespace KeywordWatcher.DC
         }
 
 
-        void ExtractKeywords(CollectedData cd, string target, bool dup = false)
+        
+
+        class FetchPostsResult
         {
-            var results = KiwiProvider.kiwi.Analyze(target);
-            foreach (var result in results)
+            public IReadOnlyList<Exception> exceptions;
+        }
+
+        class FetchWorker
+        {
+            public IReadOnlyList<Exception> exceptions { get; private set; }
+            public int segN = 0;
+            public Dictionary<string, int> keywordAndCount { get; } = new();
+            public async Task Run(HttpClient httpClient, long startPostID, long endPostID, string boardCode)
             {
-                var distinctedMorphs = result.morphs.DistinctBy((token) => token.form);
-                foreach (var token in distinctedMorphs)
+                var exceptions = new List<Exception>();
+                this.exceptions = exceptions;
+
+                long currentPostID = startPostID;
+                while (currentPostID <= endPostID)
                 {
-                    if (token.tag is "NNG" or "NNP" or "SL") // NNG: 일반 명사, NNP: 고유 명사, SL: 알파벳(티커)
+                    try
                     {
-                        cd.AddKeywordCount(token.form, 1);
+                        using var response = await httpClient.GetAsync($"https://gall.dcinside.com/mgallery/board/view/?id={boardCode}&no={currentPostID}&page=1");
+                        switch (response.StatusCode)
+                        {
+                            case HttpStatusCode.NotFound:
+                                currentPostID++;
+                                break;
+
+                            case HttpStatusCode.TooManyRequests:
+                                await Task.Delay(500);
+                                throw new Exception("Rate limited.");
+
+                            case HttpStatusCode.OK:
+                                var htmlString = await response.Content.ReadAsStringAsync();
+                                if (string.IsNullOrEmpty(htmlString))
+                                { break; }
+                                var titleAndContent = await DCUtility.ParseFromHTML(htmlString);
+                                ExtractKeywords(keywordAndCount, titleAndContent);
+                                segN++;
+                                currentPostID++;
+                                break;
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        exceptions.Add(new Exception($"Error fetching {boardCode} post {currentPostID}. ", e));
+                    }
+                    finally
+                    {
+                        currentPostID++;
                     }
                 }
             }
-        }
 
-        public class FetchPostsResult
-        {
-            public IReadOnlyList<Exception> exceptions;
+            void ExtractKeywords(Dictionary<string, int> keywordAndCount, string target, bool dup = false)
+            {
+                var results = KiwiProvider.kiwi.Analyze(target);
+                foreach (var result in results)
+                {
+                    var distinctedMorphs = result.morphs.DistinctBy((token) => token.form);
+                    foreach (var token in distinctedMorphs)
+                    {
+                        if (token.tag is "NNG" or "NNP" or "SL") // NNG: 일반 명사, NNP: 고유 명사, SL: 알파벳(티커)
+                        {
+                            if (!keywordAndCount.ContainsKey(token.form))
+                            { keywordAndCount[token.form] = 0; }
+                            keywordAndCount[token.form]++;
+                        }
+                    }
+                }
+            }
         }
     }
 }

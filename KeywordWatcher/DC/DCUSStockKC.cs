@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace KeywordWatcher.DC
 {
-    internal class DCUSStockKeywordCollector : DCKeywordCollector
+    internal class DCUSStockKC : DCKeywordCollector
     {
         protected override string boardCode => "stockus";
-        public DCUSStockKeywordCollector(HttpClient httpClient) : base(httpClient)
+        public DCUSStockKC(HttpClient httpClient) : base(httpClient)
         { }
     }
 }

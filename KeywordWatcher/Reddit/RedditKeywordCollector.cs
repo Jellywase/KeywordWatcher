@@ -43,6 +43,7 @@ namespace KeywordWatcher.Reddit
                         hotPostsJson = await redditApp.GetHotPosts(subreddit);
                         if (hotPostsJson == null)
                         { throw new Exception(); }
+                        break;
                     }
                     catch (Exception ex)
                     {
@@ -59,11 +60,12 @@ namespace KeywordWatcher.Reddit
                 List<int> scores = new();
                 foreach (JsonNode post in posts)
                 {
-                    string selftext = post["selftext"].GetValue<string>();
-                    string title = post["title"].GetValue<string>();
-                    int score = post["score"].GetValue<int>();
-                    bool stickied = post["stickied"].GetValue<bool>();
-                    bool is_self = post["is_self"].GetValue<bool>();
+                    var postData = post["data"];
+                    string selftext = postData["selftext"].GetValue<string>();
+                    string title = postData["title"].GetValue<string>();
+                    int score = postData["score"].GetValue<int>();
+                    bool stickied = postData["stickied"].GetValue<bool>();
+                    bool is_self = postData["is_self"].GetValue<bool>();
 
                     if (stickied || !is_self)
                     { continue; }
@@ -84,7 +86,8 @@ namespace KeywordWatcher.Reddit
                     int score = scores[targetIndex];
                     foreach (var tk in distinctedAnalyzedTarget)
                     {
-                        newCD.AddKeywordCount(tk.keyword, score);
+                        if (tk.tag is Catalyst.PartOfSpeech.NOUN or Catalyst.PartOfSpeech.PROPN)
+                        { newCD.AddKeywordCount(tk.keyword, score); }
                     }
                     newCD.N += score;
                     targetIndex++;

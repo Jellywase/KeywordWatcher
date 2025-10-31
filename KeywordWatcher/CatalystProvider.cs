@@ -65,16 +65,18 @@ namespace KeywordWatcher
             {
                 docs.Add(new Document(target, language));
             }
-            nlp.ProcessSingleThread(docs);
+            // ToArray를 하지 않으면 docs에 TokenData가 반영되지 않는 버그 있음.
+            nlp.Process(docs).ToArray();
 
             List<List<TaggedKeyword>> result = new();
+
             var targetsEnumerator = targets.GetEnumerator();
             foreach (var doc in docs)
             {
                 List<TaggedKeyword> taggedKeywords = new();
                 result.Add(taggedKeywords);
-                string target = targetsEnumerator.Current;
                 targetsEnumerator.MoveNext();
+                string target = targetsEnumerator.Current;
                 foreach (var sentence in doc.TokensData)
                 {
                     foreach (var token in sentence)
